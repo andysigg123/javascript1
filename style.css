@@ -6,7 +6,9 @@
          --branco: #FFFFFF;
          --botao-ativo: #3A375E;
          --botao-inativo: rgba(58, 55, 94, 0.5);
-         --texto-fundo: rgba(58, 55, 94, 0.3); }
+         --texto-fundo: rgba(58, 55, 94, 0.3); 
+}
+
 body {
         background-color: var(--cor-de-fundo);
         color: var(--branco);
@@ -30,6 +32,7 @@ body {
 .titulo-principal span {
         color: var(--verde);
         }
+
 .botao { font-family: «Crakra Petch», sans-serif;
         background-color: var(--botao-inativo);
         color: var(--branco); display: flex;
@@ -38,6 +41,8 @@ body {
         font-size: 18px;
         align-items: center;
         width: 100%;
+        border-bottom: 4px solid var(---botao-ativo);
+        border-left: ;
         }
 
 .botoes { display: block;
